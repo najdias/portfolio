@@ -25,54 +25,22 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <ExperienceDetail
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search
-                results and developing new tools for data analysis and visualization."
-          />
-          <ExperienceDetail
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search
-                results and developing new tools for data analysis and visualization."
-          />
-          <ExperienceDetail
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search
-                results and developing new tools for data analysis and visualization."
-          />
-          <ExperienceDetail
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search
-                results and developing new tools for data analysis and visualization."
-          />
-          <ExperienceDetail
-            position="Software Engineer"
-            company="Google"
-            companyLink="https://google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-                search engine, including improving the accuracy and relevance of search
-                results and developing new tools for data analysis and visualization."
+            position="PHP Developer -> Senior Software Engineer -> Engineering Manager -> Lead Engineer"
+            company="OLX Group"
+            companyLink="https://www.olxgroup.com/"
+            time="2015 - 2021"
+            address="Lisbon, Portugal"
+            work="During my time at OLX Group, I progressed from a PHP developer to a Senior Software Engineer,
+                then to Engineering Manager, and eventually became a Lead Engineer, playing a key role in the
+                design and implementation of the architecture for OLX Group's platform. In these roles, I gained
+                extensive experience in software development, project management, and team leadership, contributing
+                to the development of OLX Group's platform and helping to make it one of the most successful online
+                marketplaces in the world. I was responsible for overseeing multiple projects, leading a team of
+                software engineers, and managing the change of the monolith architecture to microservices architecture.
+                I also provided support for newcomers developers, launched new classifieds sites around the world,
+                and developed proprietary PHP frameworks and Golang microservices. As a Scrum Master, I successfully
+                led cross-functional teams to complete complex projects on time and within budget.
+                Throughout my time at OLX Group, I was proud to be part of a talented and dedicated team."
           />
         </ul>
       </div>

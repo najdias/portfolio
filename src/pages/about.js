@@ -33,23 +33,34 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with
-                a passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m Nuno Dias, a highly experienced senior software
+                developer with a strong focus on e-commerce solutions. I have
+                extensive expertise in various technologies, including PHP,
+                HTML, CSS, Tailwind CSS, React, Next.js, and Spryker. Currently,
+                I&apos;m a Spryker senior software developer, leading the
+                development of customized e-commerce solutions for clients.
+                I&apos;m passionate about leveraging technology to enhance user
+                experiences and deliver high-quality results that exceed client
+                expectations.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty &ndash; it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                Aside from my technical expertise, I&apos;m a natural leader
+                with exceptional management skills. I&apos;ve previously held
+                roles as an engineering manager and lead engineer, where I
+                successfully managed and mentored teams of developers to deliver
+                outstanding results. My leadership style is characterized by my
+                ability to inspire and motivate team members to work
+                collaboratively and deliver quality results within tight
+                deadlines.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                I&apos;m committed to staying up-to-date with the latest
+                technologies and trends in my field. I regularly attend industry
+                events and training programs to expand my knowledge and skills.
+                With my technical expertise, leadership skills, and passion for
+                innovation, I&apos;m confident that I&apos;m a valuable asset to
+                any organization seeking to deliver high-quality software
+                solutions that meet client needs and exceed expectations.
               </p>
             </div>
             <div

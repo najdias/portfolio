@@ -150,16 +150,16 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            <HeaderMobileLink
+            {/* <HeaderMobileLink
               href="/articles"
               title="Articles"
               className=""
               toggle={handleClick}
-            />
+            /> */}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <MotionLink
-              href="https://twitter.com"
+              href="https://twitter.com/Days85"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

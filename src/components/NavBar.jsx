@@ -58,12 +58,11 @@ const NavBar = () => {
         <nav>
           <HeaderLink href="/" title="Home" className="mr-4" />
           <HeaderLink href="/about" title="About" className="mx-4" />
-          <HeaderLink href="/projects" title="Projects" className="mx-4" />
-          <HeaderLink href="/articles" title="Articles" className="ml-4" />
+          <HeaderLink href="/projects" title="Projects" className="ml-4" />
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <MotionLink
-            href="https://twitter.com"
+            href="https://twitter.com/Days85"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -72,7 +71,7 @@ const NavBar = () => {
             <TwitterIcon />
           </MotionLink>
           <MotionLink
-            href="/"
+            href="https://github.com/days85"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -81,31 +80,13 @@ const NavBar = () => {
             <GithubIcon />
           </MotionLink>
           <MotionLink
-            href="/"
+            href="https://www.linkedin.com/in/nunojdias/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3"
           >
             <LinkedInIcon />
-          </MotionLink>
-          <MotionLink
-            href="/"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3 bg-dark dark:bg-light rounded-full"
-          >
-            <PinterestIcon />
-          </MotionLink>
-          <MotionLink
-            href="/"
-            target={"_blank"}
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3"
-          >
-            <DribbbleIcon />
           </MotionLink>
           <button
             onClick={() => setMode(mode === "dark" ? "light" : "dark")}
@@ -150,12 +131,6 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            {/* <HeaderMobileLink
-              href="/articles"
-              title="Articles"
-              className=""
-              toggle={handleClick}
-            /> */}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-2">
             <MotionLink
@@ -168,7 +143,7 @@ const NavBar = () => {
               <TwitterIcon />
             </MotionLink>
             <MotionLink
-              href="/"
+              href="https://github.com/days85"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -177,31 +152,13 @@ const NavBar = () => {
               <GithubIcon />
             </MotionLink>
             <MotionLink
-              href="/"
+              href="https://www.linkedin.com/in/nunojdias/"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mx-3 sm:mx-1"
             >
               <LinkedInIcon />
-            </MotionLink>
-            <MotionLink
-              href="/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-dark dark:bg-light rounded-full sm:mx-1"
-            >
-              <PinterestIcon />
-            </MotionLink>
-            <MotionLink
-              href="/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 sm:ml-1"
-            >
-              <DribbbleIcon />
             </MotionLink>
             <button
               onClick={() => setMode(mode === "dark" ? "light" : "dark")}

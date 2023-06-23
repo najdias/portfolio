@@ -25,32 +25,31 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <EducationDetail
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer
-                  Systems Engineering, and Artificial Intelligence."
+            type="Spryker Certified Foundations Developer"
+            time="2023"
+            place="Spryker"
+            info="Recognized as Spryker Certified Foundations Developer."
           />
           <EducationDetail
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer
-                  Systems Engineering, and Artificial Intelligence."
+            type="Certified Remote Individual"
+            time="2021"
+            place="Remote-how, Inc."
+            info="Assess current remote skills
+                  Teach how to improve them."
           />
           <EducationDetail
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer
-                  Systems Engineering, and Artificial Intelligence."
+            type="Certified Scrum Master"
+            time="2018"
+            place="Scrum Alliance"
+            info="Foster an effective and productive working environment and guiding
+                  others to understand scrum values, principles and practices."
           />
           <EducationDetail
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
+            type="Bachelor in Computer Engineering"
+            time="2003-2011"
+            place="School of Technology and Management of Bragança (ESTiG)"
             info="Relevant courses included Data Structures and Algorithms, Computer
-                  Systems Engineering, and Artificial Intelligence."
+                  Systems Engineering and development languages."
           />
         </ul>
       </div>

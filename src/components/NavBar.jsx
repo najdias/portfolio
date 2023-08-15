@@ -58,7 +58,7 @@ const NavBar = () => {
         <nav>
           <HeaderLink href="/" title="Home" className="mr-4" />
           <HeaderLink href="/about" title="About" className="mx-4" />
-          <HeaderLink href="/projects" title="Projects" className="ml-4" />
+          {/* <HeaderLink href="/projects" title="Projects" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <MotionLink

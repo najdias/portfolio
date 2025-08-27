@@ -4,7 +4,7 @@ import { LinkArrow } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";

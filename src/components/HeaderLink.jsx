@@ -5,7 +5,7 @@ import React from "react";
 const HeaderLink = ({ href, title, className = "" }) => {
   const router = useRouter();
   return (
-    <Link href={href} className={`${className} relative group`} legacyBehavior>
+    <Link href={href} className={`${className} relative group`}>
       {title}
       <span
         className={`

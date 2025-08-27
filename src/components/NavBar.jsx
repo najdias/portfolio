@@ -62,7 +62,7 @@ const NavBar = () => {
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <MotionLink
-            href="https://twitter.com/Days85"
+            href="https://x.com/najdias_dev"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -71,7 +71,7 @@ const NavBar = () => {
             <TwitterIcon />
           </MotionLink>
           <MotionLink
-            href="https://github.com/days85"
+            href="https://github.com/najdias"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}

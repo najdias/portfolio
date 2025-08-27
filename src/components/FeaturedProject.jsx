@@ -23,7 +23,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         href={link}
         target={"_blank"}
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
-        legacyBehavior>
+      >
         <FramerImage
           src={img}
           alt={title}
@@ -45,7 +45,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           href={link}
           target={"_blank"}
           className="hover:underline underline-offset-2"
-          legacyBehavior>
+        >
           <h2 className="my-2 w-full text-left text-4xl font-bold sm:text-sm">
             {title}
           </h2>
@@ -54,7 +54,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link href={github} target={"_blank"} className="w-10" legacyBehavior>
+          <Link href={github} target={"_blank"} className="w-10">
             <GithubIcon />
           </Link>
           <Link

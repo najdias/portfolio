@@ -28,7 +28,7 @@ const MovingImage = ({ title, img, link }) => {
       target={"_blank"}
       onMouseMove={handleMouse}
       onMouseLeave={handleMouseLeave}
-    >
+      legacyBehavior>
       <h2 className="capitalize text-xl font-semibold hover:underline">
         {title}
       </h2>

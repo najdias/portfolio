@@ -59,7 +59,7 @@ export default function Home() {
                           dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light
                           md:p-2 md:px-4 md:text-base"
                   download={true}
-                >
+                  legacyBehavior>
                   Resume
                   <LinkArrow className="w-6 ml-1" />
                 </Link>

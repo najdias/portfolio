@@ -19,7 +19,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
         href={link}
         target={"_blank"}
         className="w-full inline-block cursor-pointer overflow-hidden rounded-lg"
-      >
+        legacyBehavior>
         <FramerImage
           src={img}
           alt={title}
@@ -30,7 +30,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
           sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 50vw"
         />
       </Link>
-      <Link href={link} target={"_blank"}>
+      <Link href={link} target={"_blank"} legacyBehavior>
         <h2 className="capitalize text-2xl font-bold my-2 mt-4 hover:underline xs:text-lg">
           {title}
         </h2>

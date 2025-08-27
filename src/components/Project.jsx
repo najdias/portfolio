@@ -22,7 +22,7 @@ const Project = ({ title, type, img, link, github }) => {
         href={link}
         target={"_blank"}
         className="w-full cursor-pointer overflow-hidden rounded-lg"
-      >
+        legacyBehavior>
         <FramerImage
           src={img}
           alt={title}
@@ -44,7 +44,7 @@ const Project = ({ title, type, img, link, github }) => {
           href={link}
           target={"_blank"}
           className="hover:underline underline-offset-2"
-        >
+          legacyBehavior>
           <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
             {title}
           </h2>
@@ -57,7 +57,7 @@ const Project = ({ title, type, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} target={"_blank"} className="w-8 md:w-6">
+          <Link href={github} target={"_blank"} className="w-8 md:w-6" legacyBehavior>
             <GithubIcon />
           </Link>
         </div>

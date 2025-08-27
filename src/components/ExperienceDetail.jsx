@@ -30,7 +30,7 @@ const ExperienceDetail = ({
             href={companyLink}
             target={"_blank"}
             className="text-primary capitalize dark:text-primaryDark"
-          >
+            legacyBehavior>
             @ {company}
           </Link>
         </h3>

@@ -4,7 +4,7 @@ import { LinkArrow } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 import profilePic from "../../public/images/profile/developer-pic-1.png";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
@@ -30,7 +30,10 @@ export default function Home() {
                 className="w-full h-auto lg:hidden md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 50vw"
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
             </div>
             <div
               className="w-1/2 flex flex-col items-center self-center lg:w-full
@@ -74,7 +77,14 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
-          <Image src={lightBulb} alt="NDays" className="w-full h-auto" />
+          <Image
+            src={lightBulb}
+            alt="NDays"
+            className="w-full h-auto"
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </div>
       </main>
     </>

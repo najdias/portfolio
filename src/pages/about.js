@@ -6,7 +6,7 @@ import Layout from "@/components/Layout";
 import Skills from "@/components/Skills";
 import TransitionEffect from "@/components/TransitionEffect";
 import Head from "next/head";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from "react";
 import ProfilePic from "../../public/images/profile/developer-pic-2.jpg";
 
@@ -78,7 +78,10 @@ const about = () => {
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width:1200px) 50vw, 33vw"
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
             </div>
             <div
               className="col-span-2 flex flex-col items-end justify-between xl:col-span-8
